@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/wall.jpg');
+    background-position: center;
+}
+
+.area1,
+.personagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'arial';
+    color: white;
+    text-shadow: 5px 5px 5px rgb(54, 54, 250);
+}
+.personagens img {
+    width: 300px;
+    
+}
+.wesker img {
+    width: 330px;
+    margin-top: 15px;
+}
+.personagens .sombra {
+    position: relative;
+    margin-top: -100px;
+    height: 100px;
+    background-image: linear-gradient(to top, black, transparent);
+}
+.caixa {
+   margin-top: 30px;
+   cursor: pointer;
+}
+.yourName {
+    margin-top: 3%;
+}
+.yourName span {
+    font-size: 20px;
+}
+.yourName input {
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 10px;
+}
+.yourName button {
+    height: 30px;
+    padding: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(54, 54, 250);
+}
+.yourName a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(54, 54, 250);
+    padding: 10px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/*CHAT*/
+
+.area2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: 'arial';
+}
+.area--mensagem {
+    background-color: black;
+    height: 470px;
+    width: 260px;
+    padding: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-left: 5px double rgb(54, 54, 250);
+    border-right: 5px double rgb(54, 54, 250);
+    border-top: 5px double rgb(54, 54, 250);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 6px 6px 6px white;
+}
+.area-msg .campo-msg {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 280px;
+    border-left: 5px double rgb(54, 54, 250);
+    border-right: 5px double rgb(54, 54, 250);
+    border-bottom: 5px double rgb(54, 54, 250);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 6px 6px 6px white;
+}
+.campo-msg input {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(54, 54, 250);
+    color: white;
+    outline: 0;
+    border: 0;
+}
+.campo-msg input::placeholder {
+    color: white;
+}
+.campo-msg button {
+    padding: 0;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(54, 54, 250);
+    color: white;
+}
+.area-msg-wel {
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.area-msg-env {
+    font-size: 13px;
+    color: rgb(54, 54, 250);
+    border-radius: 20px;
+    text-align: right;
+}
+
+.area--mensagem .msg-welcome {
+    font-size: 13px;
+    color: rgb(54, 54, 250);
+}
