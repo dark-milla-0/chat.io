@@ -29,8 +29,7 @@ enviar = () => {
 
     if(mens.value != "") {
         let div = document.createElement('div')
-        const lue = `<span style="color: black;">você</span> <br><br>`
-        let m = document.createTextNode(lue + mens)
+        let m = document.createTextNode(mens)
         div.appendChild(m)
         mensEnv.appendChild(div)
         div.style.backgroundColor = 'white'
